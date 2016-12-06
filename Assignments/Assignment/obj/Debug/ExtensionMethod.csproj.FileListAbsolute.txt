@@ -1,0 +1,6 @@
+E:\Campaign Monitor\ExtensionMethod\ExtensionMethod\bin\Debug\ExtensionMethod.exe.config
+E:\Campaign Monitor\ExtensionMethod\ExtensionMethod\obj\Debug\ExtensionMethod.csprojResolveAssemblyReference.cache
+E:\Campaign Monitor\ExtensionMethod\ExtensionMethod\bin\Debug\ExtensionMethod.exe
+E:\Campaign Monitor\ExtensionMethod\ExtensionMethod\bin\Debug\ExtensionMethod.pdb
+E:\Campaign Monitor\ExtensionMethod\ExtensionMethod\obj\Debug\ExtensionMethod.exe
+E:\Campaign Monitor\ExtensionMethod\ExtensionMethod\obj\Debug\ExtensionMethod.pdb
