@@ -3,5 +3,5 @@
 }
 
 String.prototype.endsWith = function (input) {
-
+    return this.substring(this.lastIndexOf(input)) === input;
 }
