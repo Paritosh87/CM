@@ -14,6 +14,7 @@ Second answer:
 
 --Return the names of all salespeople that do
 --not have any order with George
+
 Select distinct S.Name
 from dbo.Salesperson S inner join dbo.orders O
 on S.SalespersonID = O.SalespersonID 
@@ -22,9 +23,9 @@ Select * from  dbo.orders WHERE  dbo.orders.SalespersonID=S.SalespersonID and Cu
 
 Third answer:
 
-
 --Return the names of salespeople that have
 --2 or more orders.
+
 Select  distinct S.Name
 from dbo.Salesperson S inner join dbo.orders O
 on S.SalespersonID = O.SalespersonID 

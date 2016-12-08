@@ -12,9 +12,9 @@ namespace Assignments
         {
             return new List<string>
             {
-                {null},
-                {"a"},
-                {""},
+                null,
+                "a",
+                "",
                 "\"null\""
             };
         }
