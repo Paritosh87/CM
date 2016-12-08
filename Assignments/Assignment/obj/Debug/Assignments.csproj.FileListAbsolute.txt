@@ -10,3 +10,5 @@ E:\CM\CM\Assignments\Assignment\bin\Debug\Assignments.exe
 E:\CM\CM\Assignments\Assignment\bin\Debug\Assignments.pdb
 E:\CM\CM\Assignments\Assignment\obj\Debug\Assignments.csprojResolveAssemblyReference.cache
 E:\CM\CM\Assignments\Assignment\obj\Debug\Assignments.pdb
+E:\CM\just download\CM\Assignments\Assignment\bin\Debug\Assignments.exe.config
+E:\CM\just download\CM\Assignments\Assignment\obj\Debug\Assignments.exe
