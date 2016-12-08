@@ -75,16 +75,40 @@ namespace Assignments.UnitTests
         }
 
         [TestMethod]
-        public void IsNullOrEmpty_Input_NotEmpty_return_False()
+        public void CalculateAreaofTriangle_Input_Valid_return_ValidValue()
         {
             //Arrange
-            var output = false;
+            var input = new List<int> { 3, 4, 5 };
+            var output = 6;
 
             //Act
-            var result = Assignments.ExtensionMethods.IsNullOrEmpty("has some value");
+            var result = Assignments.TriangleArea.CalculateAreaofTriangle(input);
 
             //Assert
             Assert.AreEqual(output, result);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentOutOfRangeException), "One of the parameter passed in incorrect.")]
+        public void CalculateAreaofTriangle_Input_Invalid_return_Exception_InvalidParameter()
+        {
+            //Arrange
+            var input = new List<int> { 3, 4 };
+            //var output = 6;
+
+            //Act
+            var result = Assignments.TriangleArea.CalculateAreaofTriangle(input);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(Exception), "Some error has occurred.")]
+        public void CalculateAreaofTriangle_Input_Invalid_return_InvalidValue()
+        {
+            //Arrange
+            var input = new List<int> { 0, 0, 0 };
+
+            //Act
+            var result = Assignments.TriangleArea.CalculateAreaofTriangle(input);
         }
     }
 }

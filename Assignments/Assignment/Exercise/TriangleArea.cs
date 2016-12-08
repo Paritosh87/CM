@@ -8,7 +8,9 @@ namespace Assignments
 {
     public static class TriangleArea
     {
-
+        static int a;
+        static int b;
+        static int c;
         
         internal static bool VerifyTriangleCreation(int a, int b, int c)
         {
@@ -18,10 +20,8 @@ namespace Assignments
 
         public static double CalculateAreaofTriangle(List<int> _input)
         {
-            int a = _input[0];
-            int b = _input[1];
-            int c = _input[2];
-
+            GetSides(_input, out a, out b, out c);
+            
             if (VerifyTriangleCreation(a, b, c))
             {
                 double s = (a + b + c) / 2;
@@ -31,31 +31,24 @@ namespace Assignments
             else throw (new Exception("InvalidTriangleException"));
         }
 
-        internal static void AreaOfTriangle(Sides _input)
+        private static void GetSides(List<int> _input, out int a, out int b, out int c)
         {
-            Console.WriteLine(String.Format("\r\nArea of triangle for sides {0}, {1}, {2} is {3}", _input.side1, _input.side2, _input.side3, CalculateAreaofTriangle(_input.Input)));
-        }
-    }
-
-    public static class Sides 
-    {
-        public int side1 { get; set; }
-        public int side2 { get; set; }
-        public int side3 { get; set; }
-
-        private List<int> _input;
-
-        public List<int> Input
-        {
-            get { return _input; }
-            set
+            try
             {
-                _input = value;
-                side1 = _input[0];
-                side2 = _input[1];
-                side3 = _input[2];
+                a = _input[0];
+                b = _input[1];
+                c = _input[2];
+            }
+            catch(Exception ex)
+            {
+                throw ex;
             }
         }
-    
+
+        internal static void AreaOfTriangle(List<int> _input)
+        {
+            var area = CalculateAreaofTriangle(_input);
+            Console.WriteLine(String.Format("\r\nArea of triangle for sides {0}, {1}, {2} is {3}", a, b, c, area));
+        }
     }
 }

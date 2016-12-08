@@ -5,3 +5,10 @@ D:\sandesh\CM\Assignments\Assignments.UnitTests\bin\Debug\Assignments.pdb
 D:\sandesh\CM\Assignments\Assignments.UnitTests\obj\Debug\Assignments.UnitTests.csprojResolveAssemblyReference.cache
 D:\sandesh\CM\Assignments\Assignments.UnitTests\obj\Debug\Assignments.UnitTests.dll
 D:\sandesh\CM\Assignments\Assignments.UnitTests\obj\Debug\Assignments.UnitTests.pdb
+E:\CM\CM\Assignments\Assignments.UnitTests\obj\Debug\Assignments.UnitTests.csprojResolveAssemblyReference.cache
+E:\CM\CM\Assignments\Assignments.UnitTests\obj\Debug\Assignments.UnitTests.dll
+E:\CM\CM\Assignments\Assignments.UnitTests\obj\Debug\Assignments.UnitTests.pdb
+E:\CM\CM\Assignments\Assignments.UnitTests\bin\Debug\Assignments.UnitTests.dll
+E:\CM\CM\Assignments\Assignments.UnitTests\bin\Debug\Assignments.UnitTests.pdb
+E:\CM\CM\Assignments\Assignments.UnitTests\bin\Debug\Assignments.exe
+E:\CM\CM\Assignments\Assignments.UnitTests\bin\Debug\Assignments.pdb

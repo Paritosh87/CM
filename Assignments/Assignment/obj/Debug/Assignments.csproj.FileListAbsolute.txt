@@ -4,3 +4,9 @@ D:\sandesh\CM\Assignments\Assignment\bin\Debug\Assignments.pdb
 D:\sandesh\CM\Assignments\Assignment\obj\Debug\Assignments.csprojResolveAssemblyReference.cache
 D:\sandesh\CM\Assignments\Assignment\obj\Debug\Assignments.exe
 D:\sandesh\CM\Assignments\Assignment\obj\Debug\Assignments.pdb
+E:\CM\CM\Assignments\Assignment\bin\Debug\Assignments.exe.config
+E:\CM\CM\Assignments\Assignment\obj\Debug\Assignments.exe
+E:\CM\CM\Assignments\Assignment\bin\Debug\Assignments.exe
+E:\CM\CM\Assignments\Assignment\bin\Debug\Assignments.pdb
+E:\CM\CM\Assignments\Assignment\obj\Debug\Assignments.csprojResolveAssemblyReference.cache
+E:\CM\CM\Assignments\Assignment\obj\Debug\Assignments.pdb
