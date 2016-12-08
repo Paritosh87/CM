@@ -1,0 +1,6 @@
+D:\sandesh\CM\Assignments\Assignment\bin\Debug\Assignments.exe.config
+D:\sandesh\CM\Assignments\Assignment\bin\Debug\Assignments.exe
+D:\sandesh\CM\Assignments\Assignment\bin\Debug\Assignments.pdb
+D:\sandesh\CM\Assignments\Assignment\obj\Debug\Assignments.csprojResolveAssemblyReference.cache
+D:\sandesh\CM\Assignments\Assignment\obj\Debug\Assignments.exe
+D:\sandesh\CM\Assignments\Assignment\obj\Debug\Assignments.pdb

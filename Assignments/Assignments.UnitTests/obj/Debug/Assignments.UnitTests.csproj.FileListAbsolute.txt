@@ -1,0 +1,7 @@
+D:\sandesh\CM\Assignments\Assignments.UnitTests\bin\Debug\Assignments.UnitTests.dll
+D:\sandesh\CM\Assignments\Assignments.UnitTests\bin\Debug\Assignments.UnitTests.pdb
+D:\sandesh\CM\Assignments\Assignments.UnitTests\bin\Debug\Assignments.exe
+D:\sandesh\CM\Assignments\Assignments.UnitTests\bin\Debug\Assignments.pdb
+D:\sandesh\CM\Assignments\Assignments.UnitTests\obj\Debug\Assignments.UnitTests.csprojResolveAssemblyReference.cache
+D:\sandesh\CM\Assignments\Assignments.UnitTests\obj\Debug\Assignments.UnitTests.dll
+D:\sandesh\CM\Assignments\Assignments.UnitTests\obj\Debug\Assignments.UnitTests.pdb
