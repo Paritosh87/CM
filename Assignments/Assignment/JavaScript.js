@@ -5,3 +5,7 @@
 String.prototype.endsWith = function (input) {
     return this.substring(this.lastIndexOf(input)) === input;
 }
+
+String.prototype.stripHtml = function (input) {
+    return this.replace(/(<([^>]+)>)/ig, "");
+}

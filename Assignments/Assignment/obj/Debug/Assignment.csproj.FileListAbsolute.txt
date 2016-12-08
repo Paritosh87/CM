@@ -10,3 +10,4 @@ D:\sandesh\CM\Assignments\Assignment\bin\Debug\ExtensionMethod.pdb
 D:\sandesh\CM\Assignments\Assignment\obj\Debug\Assignment.csprojResolveAssemblyReference.cache
 D:\sandesh\CM\Assignments\Assignment\obj\Debug\ExtensionMethod.exe
 D:\sandesh\CM\Assignments\Assignment\obj\Debug\ExtensionMethod.pdb
+D:\sandesh\CM\Assignments\Assignment\bin\Debug\Assignments.exe.config

@@ -4,14 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExtensionMethod
+namespace Assignments
 {
-    static class Divisors
+    public static class Divisors
     {
-        public static void GetDivisors()
+        internal static void GetDivisors(List<int> _input)
         {
-            List<int> _input = Inputs.GetDivisors();
-
             foreach (var input in _input)
             {
                 Console.WriteLine("\r\nDivisors for " + input + ":");

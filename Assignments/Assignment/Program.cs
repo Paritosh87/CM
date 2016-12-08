@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExtensionMethod
+namespace Assignments
 {
     class Program
     {
@@ -28,9 +28,9 @@ namespace ExtensionMethod
 
                 switch (Console.ReadKey().KeyChar)
                 {
-                    case '1': ExtensionMethods.ExtensionStringEmptyOrNull(); break;
-                    case '2': Divisors.GetDivisors(); break;
-                    case '3': TriangleArea.AreaOfTriangle(); break;
+                    case '1': ExtensionMethods.ExtensionStringEmptyOrNull(Inputs.ExtensionStringEmptyOrNull()); break;
+                    case '2': Divisors.GetDivisors(Inputs.GetDivisors()); break;
+                    case '3': TriangleArea.AreaOfTriangle(Inputs.GetSides()); break;
                     case '0': return;
                     default: Console.WriteLine("Please enter a valid input"); break;
                 }

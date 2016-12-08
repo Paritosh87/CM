@@ -4,19 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExtensionMethod
+namespace Assignments
 {
-    static class ExtensionMethods
+    public static class ExtensionMethods
     {
         public static bool IsNullOrEmpty(this string value)
         {
             return (value == "" || value == null) ? true : false;
         }
 
-        public static void ExtensionStringEmptyOrNull()
+        internal static void ExtensionStringEmptyOrNull(List<string> _input)
         {
-            List<string> _input = Inputs.ExtensionStringEmptyOrNull();
-
             foreach (var input in _input)
             {
                 input.IsNullOrEmpty();
